@@ -101,7 +101,7 @@ def main(argv):
     return
 
 def help():
-    print ("script.py -i <inputdir> -o <outputfile> -D <src-domain(s)> -E <exclude-src-domain(s) [-t](create temp file)")
+    print ("script.py -d <inputdir> -o <outputfile> -D <src-domain(s)> -E <exclude-src-domain(s) [-t](create temp file)")
     print ("              -D and -E optionas are mutually exclusive")
     return
 
